@@ -1,0 +1,7 @@
+requests>=2.31
+twilio>=9.0
+python-dotenv>=1.0
+pytest>=8.0
+findmy==0.10.2  # native_anisette.py overrides 0.10.2 internals; test sign-in before changing
+pyobjc-core>=10
+pyobjc-framework-Cocoa>=10

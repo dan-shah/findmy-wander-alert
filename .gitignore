@@ -1,0 +1,20 @@
+# Secrets and personal data: never commit
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Runtime state
+state.json
+state.tmp
+state.lock
+logs/
+*.log
+
+# Python / OS
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
